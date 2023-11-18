@@ -1,6 +1,7 @@
 2.3:
 As explaind to solve these kind of problem we need to find a pattern that stars (or hashtags) are printed using for loops.
 in this question something like the shape below is going to be printed.
+``` 
    *           *
     **       **
      ***   ***
@@ -9,6 +10,7 @@ in this question something like the shape below is going to be printed.
      ***   ***
     **       **
    *           *
+``` 
   as I found out there might be a pettern for this shape when you devide it to two up and down pieces.
   on the other hand it needs 4 for loops for each up and down piece to print 
   1.Left side spaces
@@ -18,7 +20,7 @@ in this question something like the shape below is going to be printed.
 
   To find the pattern we must write each row * or space and find out how it grows 
   for example for i = 0 of middle space there are 8 space and it reduce by the number 2 for each row so the formulla is (-4 * Row) + 12 I did this for all lines and the code below is the resault:
-
+``` 
 namespace Excersices
 {
     public static class Shape4
@@ -69,3 +71,4 @@ namespace Excersices
         }
     }
 }
+``` 
