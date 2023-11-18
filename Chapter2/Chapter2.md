@@ -19,7 +19,7 @@ in this question something like the shape below is going to be printed.
 
   To find the pattern we must write each row * or space and find out how it grows 
   for example for i = 0 of middle space there are 8 space and it reduce by the number 2 for each row so the formulla is (-4 * Row) + 12 I did this for all lines and the code below is the resault:
-
+'''
 namespace Excersices
 {
     public static class Shape4
@@ -70,3 +70,4 @@ namespace Excersices
         }
     }
 }
+'''
