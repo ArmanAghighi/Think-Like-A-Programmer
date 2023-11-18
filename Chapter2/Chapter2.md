@@ -1,6 +1,7 @@
 2.3:
 As explaind to solve these kind of problem we need to find a pattern that stars (or hashtags) are printed using for loops.
 in this question something like the shape below is going to be printed.
+
    *           *
     **       **
      ***   ***
